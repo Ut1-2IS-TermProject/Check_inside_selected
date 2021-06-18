@@ -25,8 +25,9 @@ def is_in_poly(p, poly):
                 is_in = not is_in
     return is_in
   ```
+  ## Check the circle
   ``` python
-    ## Check the circle
+    
     def is_in_circle(p,c, rad):
     px, py = p
     cx,cy = c
