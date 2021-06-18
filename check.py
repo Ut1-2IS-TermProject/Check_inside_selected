@@ -28,9 +28,9 @@ def is_in_circle(p,c, rad):
     cx,cy = c
     if ((px - cx) * (px - cx) +
             (py - cy) * (py - cy) <= rad * rad):
-        return True;
+        return True
     else:
-        return False;
+        return False
 
 
 
