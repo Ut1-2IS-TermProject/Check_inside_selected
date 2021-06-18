@@ -1,5 +1,6 @@
 # Check_inside_selected
 ## check polygon
+```python
 def is_in_poly(p, poly):
     """
     :param p: [x, y]
@@ -23,7 +24,8 @@ def is_in_poly(p, poly):
             elif x > px:  # if point is on left-side of line
                 is_in = not is_in
     return is_in
-    
+  ```
+  ``` python
     ## Check the circle
     def is_in_circle(p,c, rad):
     px, py = p
@@ -33,3 +35,4 @@ def is_in_poly(p, poly):
         return True
     else:
         return False
+```
